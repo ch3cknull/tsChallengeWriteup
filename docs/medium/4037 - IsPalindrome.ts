@@ -8,3 +8,8 @@ type IsPalindrome<T extends string | number> = StrLength<T> extends 1 | 0
     ? IsPalindrome<Rest>
     : false
   : false
+
+// Another Way
+type Reverse<T, R extends string = ''> = T extends `${infer K}${infer Rest}` ? Reverse<Rest, `${K}${R}`> : R
+
+type IsPalindrome2<T extends string | number> = Equal<`${T}`, Reverse<`${T}`>>
