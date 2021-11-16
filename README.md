@@ -8,8 +8,8 @@ Type Challenge 的 个人攻略
 ## 进度
 Easy: 13 / 13
 
-Medium: 28 / 49
+Medium: 29 / 50
 
 Hard: 5 / 30
 
-Extreme: 0 / 12
+Extreme: 1 / 12
